@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, user-scalable=no "
+		/>
+		<title>Mini Apps</title>
+		<link rel="stylesheet" href="style.css" />
+		<title>nevasno</title>
+	</head>
+	<body>
+		<div class="mainScreen">
+			<div class="scorePanel">
+				<div class="topScorePanel">
+					<div class="energy">
+						<img src="image/energy.svg" />
+						<div class="energyBox">
+							<div id="energyFill"></div>
+							<span id="energyText">500</span>
+						</div>
+					</div>
+					<div class="tickets">
+						<img src="image/tickets.svg" />
+						<div class="ticketBox">
+							<div id="ticketFill"></div>
+							<span id="ticketText">1 </span>
+						</div>
+					</div>
+				</div>
+				<div class="Score">
+					<img src="image/icons8-гусь-гусь-утка-64.png" alt="" />
+					<span id="Score">0</span>
+				</div>
+				<div class="buttonScorePanel">
+					<p>+ <span id="InHour">0</span> в час</p>
+				</div>
+			</div>
+			<div class="cardPanel">
+				<div class="upgrade">
+					<p>ПРОКАЧАЙСЯ</p>
+					<div class="containerCardsUpgrade">
+						<div class="card" id="clickLvLEnergy">
+							<div class="imgCard">
+								<p>
+									ур.<span id="lvlEnergy">0</span> +
+									<span id="countEnergy">100</span>⚡
+								</p>
+							</div>
+							<p>Запас энергии</p>
+							<button id="payLvLEnergy">
+								<p>Купить за<span id="priceLvLEnergy">100</span></p>
+							</button>
+						</div>
+						<div class="card" id="clickLvLMulti">
+							<div class="imgCard">
+								<p>
+									ур.<span id="lvlMulti">0</span> +
+									<span id="countMulti">1</span>💸
+								</p>
+							</div>
+							<p>Мультиклик</p>
+							<button id="payLvLMulti">
+								<p>Купить за<span id="priceLvLMulti">100</span></p>
+							</button>
+						</div>
+						<div class="card" id="clickLvLRestart">
+							<div class="imgCard">
+								<p><span id="lvLRestart">0</span> / 6</p>
+							</div>
+							<p>Перезагрузка</p>
+							<button id="payLvLRestart">
+								<p>Бесплатно</p>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="passiveEarnings"></div>
+			</div>
+			<div class="controlPanel">
+				<a href="index.html" class="hrefControl">
+					<div class="buttonControl">
+						<img src="image/icons8-гусь-гусь-утка-64.png" />
+						<p>Жмякай</p>
+					</div>
+				</a>
+				<a href="magazin.html" class="hrefControl">
+					<div class="buttonControl">
+						<img src="image/icons8-магазин-48.png" />
+						<p>магазин</p>
+					</div>
+				</a>
+
+				<a href="command.html" class="hrefControl">
+					<div class="buttonControl">
+						<img src="image/icons8-связь-50.png" />
+						<p>команда</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>

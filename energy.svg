@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name=" Слой 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_Безымянный_градиент_2);
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: #a2ebff;
+        stroke: #eebdff;
+      }
+    </style>
+    <linearGradient id="_Безымянный_градиент_2" data-name="Безымянный градиент 2" x1="366" y1="290" x2="366" y2="290" gradientTransform="translate(0 402) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cee3ff"/>
+      <stop offset="0" stop-color="#c2d7ff"/>
+      <stop offset=".2" stop-color="#a0b5ff"/>
+      <stop offset=".3" stop-color="#8599ff"/>
+      <stop offset=".4" stop-color="#6f84ff"/>
+      <stop offset=".5" stop-color="#6074ff"/>
+      <stop offset=".7" stop-color="#576bff"/>
+      <stop offset=".9" stop-color="#5569ff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <image class="cls-2" width="291" height="401" transform="translate(61 5)" xlink:href="energy-1.png"/>
+    <path class="cls-3" d="M149,40.2c2.2-5,8.5-9.2,14-9.2l129.2-.4c5.5,0,8.3,4.1,6.2,9.2l-57.6,140.2c-2.1,5.1.7,9.2,6.2,9.2h45.1c5.5,0,6.7,3.1,2.7,6.8l-167.9,156.1c-4,3.7-5.8,2.6-3.8-2.6l55.6-150.2c1.9-5.2-1-9.4-6.5-9.4l-77.7-.5c-5.5,0-8.2-4.2-6-9.2l60.5-139.9h0Z"/>
+  </g>
+  <path class="cls-1" d="M366,112"/>
+</svg>
